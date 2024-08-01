@@ -71,6 +71,15 @@ body {
     margin-bottom: unset;
 }
 
+.lists li.is_active {
+    border-color: currentColor;
+    color: #759cff;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / .1);
+    background-image: url(images/check.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
 /* 첫 번째 방법 
 .lists li {
     margin-bottom: 14px;
