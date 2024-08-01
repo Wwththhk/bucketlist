@@ -75,3 +75,9 @@ body {
     margin-bottom: unset;
 }
 */
+
+/* 두 번째 방법
+.lists li + li {
+    margin-top: 14px;
+}
+*/
