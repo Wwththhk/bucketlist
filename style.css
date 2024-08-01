@@ -64,6 +64,11 @@ body {
     padding: 10px;
     line-height: 1.25;
     border-radius: 10px;
+    margin-bottom: 14px;
+}
+
+.lists li:last-child {
+    margin-bottom: unset;
 }
 
 /* 첫 번째 방법 
@@ -93,3 +98,5 @@ body {
     margin-top: 14px;
 } 
 */
+
+/* 다섯 번째 방법: flexbox gap */
